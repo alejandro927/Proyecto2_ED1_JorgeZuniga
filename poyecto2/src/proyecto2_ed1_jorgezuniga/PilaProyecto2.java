@@ -15,7 +15,7 @@ public class PilaProyecto2 extends ListaProyecto2{
     
     public void imprimirPila() {      
         for (int i = 0; i < listaPilas.size(); i++) {
-            System.out.println(i+"[" + listaPilas.get(i)+"]");
+            System.out.println("[" + listaPilas.get(i)+"]");
         }
         System.out.println("");
         
